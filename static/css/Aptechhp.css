@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    opacity: 0.98;
+    display: flex;
+    box-shadow: 2px 2px 8px rgb(91, 88, 88);
+}:root{
+    --basic-font:'Rubik', sans-serif;
+    --basic-font2: 'PT Sans', sans-serif;
+
+}
+li{
+    font-family: var(--basic-font2);
+    font-size: large;
+}
+
+.img-div{
+    width: 100%;
+    height: 85vh;
+   background-image: url(../img/Aptech.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding-top: 40vh;
+}
+.text-b{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 25%;
+}
+.bar:hover{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-box:hover{
+    background-color: brown;
+    color: white;
+}
